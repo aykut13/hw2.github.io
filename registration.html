@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html>
+<head>
+		<title> Registration </title>
+ 
+		<meta charset="UTF-8
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="css/bootstrap.css" rel="stylesheet"> 
+    <link href="css/styles.css" rel="stylesheet"> 
+	 <style type="text/css">
+div{height: 20px;}
+#red{background: #3B0B0B;}
+#blue{background: #070719;}
+</style>
+</head>
+	
+
+<body align="center" id="blue">
+
+
+<nav class="navbar navbar-default" id="red">
+	<div class="container-fluid">
+		<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false">open!</button>
+    	</div>
+			
+		<div class="collapse navbar-collapse" id="main_navbar">
+			<ul class="nav navbar-nav">
+				<li> <a href = "home.html"> Home </a></li> 
+				<li> <a href = "localdishes.html"> Local Dishes </a></li> 
+				<li> <a href = "historicalplaces.html"> Historical Places </a></li>
+				<li> <a href = "usefullinks.html"> Useful Links </a></li> 
+				<li> <a href = "aboutme.html"> About me </a></li> 
+				<li> <a href = "contactme.html"> Contact me </a></li>  
+				<li class="active"> <a href = "registration.html"> Registration </a></li> 
+			</ul>
+		</div>
+			
+	</div> 
+</nav>	
+<div class="container">
+
+
+
+<form action="thx.html">
+<table align="center">
+<tr border="1">
+<td align="left">	<label for="name"><b>Name: </b></label> </td>
+<td align="left">    <input type="text" placeholder="Write Your Name" name="name" ></td>
+</tr>
+
+<tr>
+	
+<td align="left">	<label for="surname"><b>Surname: </b></label> </td>
+<td align="left">    <input type="text" placeholder="Write Your Surname" name="surname" > </td>
+</tr>
+
+<tr>	
+<td align="left">	<label for="DoB"><b>Date of Birth: </b></label></td>
+<td align="left">    <input type="date" id="DoB" placeholder="Write Your Date of Birth" name="Dob" > </td>
+</tr>
+
+<tr>	
+<td align="left">	<label for="e-mail"><b>E-mail: </b></label>
+<td align="left">    <input type="text" placeholder="Write Your E-mail" name="e-mail" > </td>
+</tr>
+
+<tr>	
+<td align="left">	<label for="psw"><b>Password: </b></label> </td>
+<td align="left">    <input type="text" placeholder="Write Your Password" name="name"> </td>
+</tr>
+
+	
+<tr>
+<td align="left">	<label for="gender"><b>Gender: </b></label> </td>
+<td align="left">	<select name="gender"> 
+						<option >Male</option>
+						<option >Female</option>
+              
+					</select> </td>
+</tr>
+
+	
+	
+	
+<tr>
+<td align="left">	<b> Interests: </b> </td>
+</tr>
+<tr>
+<td align="left">	<label> <input type="checkbox" name="psy" value="psy"/> Psychology </label>  </td>
+</tr>
+<tr>
+<td align="left">	<label> <input type="checkbox" name="code" value="code"/> Coding </label> </td>
+</tr>
+<tr>
+<td align="left">	<label> <input type="checkbox" name="ride" value="ride"/> Riding a Lion </label> </td>
+</tr>
+
+<td align="right"> <input type="submit" value="Submit" > </td>
+<td align="left"><input type="reset" value="Reset"> </td>
+
+	
+	</table>
+	</form>
+	
+ </div>
+  <!-- jquery libraries -->
+    <script src="js/jquery.min.js"></script> 
+    <!-- bootsrap libraries -->
+    <script src="js/bootstrap.min.js"></script> 	
+</body>
+</html>
+
